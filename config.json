@@ -2,7 +2,7 @@
   {
     "version": "1.0.1",
     "minAppVersion": "1.0.0",
-    "forceUpdateBelow": "1.0.1",
+    "forceUpdateBelow": "1.0.0",
     "updateMessage": "New features and critical bug fixes!",
    
     "fallbackMessage": "No streams available. Please try again later.",
