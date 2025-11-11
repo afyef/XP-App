@@ -1,8 +1,8 @@
 
   {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "minAppVersion": "1.0.0",
-    "forceUpdateBelow": "1.0.0",
+    "forceUpdateBelow": "1.0.2",
     "updateMessage": "New features and critical bug fixes!",
    
     "fallbackMessage": "No streams available. Please try again later.",
@@ -11,28 +11,27 @@
       "xprime": "",
       "default": ""
     },
-    "changelog": {
-      "version": "1.0.1",
-      "releaseDate": "2025-01-11",
-      "sections": [
-        {
-          "title": "New Features",
-          "items": [
-            "Progress saving - Continue watching from where you left off (pstream accounts)",
-            "External subtitle support - Load subtitles from external sources",
-            "Embedded subtitle support - Play videos with built-in subtitles",
-            "Info button in player - View episode details and show information while watching"
-          ]
-        },
-        {
-          "title": "Bug Fixes",
-          "items": [
-            "Fixed audio continuing to play after exiting player",
-            "Audio now properly stops when app is closed or player is dismissed"
-          ]
-        }
+  "changelog": {
+  "version": "1.0.2",
+  "releaseDate": "2025-11-11",
+  "sections": [
+    {
+      "title": "Bug Fixes",
+      "items": [
+        "[#3] Volume goes to max and delayed — Fixed an issue where the app volume would unexpectedly jump to maximum, respond with delay, and the slider would disappear unexpectedly.",
+        "[#2] Buttons off screen — Resolved black bar issues in landscape mode causing buttons to go off-screen.",
+        "[#1] Caching in XP tab broken — Fixed a caching issue that caused missing or outdated data in the XP tab."
       ]
     },
+    {
+      "title": "Improvements",
+      "items": [
+        "Optimized UI rendering performance.",
+        "Minor performance and stability enhancements."
+      ]
+    }
+  ]
+},
     "sources": [
       {
         "id": "xprime",
