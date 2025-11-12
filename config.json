@@ -25,7 +25,8 @@
     {
       "title": "Enhancements",
       "items": [
-        "[#6] Set season as watched — Issued by @SimSalabimse. Added functionality to mark an entire season as watched."
+        "[#6] Set season as watched — Issued by @SimSalabimse. Added functionality to mark an entire season as watched.",
+        "AirPlay support. Added Apple AirPlay support for streaming content to compatible devices. (to be tested)"
       ]
     }
   ]
