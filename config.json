@@ -6,31 +6,32 @@
     "updateMessage": "New features and critical bug fixes!",
    
     "fallbackMessage": "No streams available. Please try again later.",
-    "downloadUrls": {
-      "pstream": "https://github.com/afyef/XP-App/releases/tag/v1.0.3",
-      "xprime": "https://github.com/afyef/XP-App/releases/tag/v1.0.3",
-      "default": "https://github.com/afyef/XP-App/releases/tag/v1.0.3"
-    },
+ "downloadUrls": {
+  "pstream": "https://github.com/afyef/XP-App/releases/tag/v1.0.4",
+  "xprime": "https://github.com/afyef/XP-App/releases/tag/v1.0.4",
+  "default": "https://github.com/afyef/XP-App/releases/tag/v1.0.4"
+},
 "changelog": {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "releaseDate": "2025-11-12",
   "sections": [
     {
       "title": "Bug Fixes",
       "items": [
-        "[#8] Update button not working as expected for some devices — Issued by @afyef. Fixed inconsistent behavior of the update button on certain iOS devices. (to be tested)",
-        "[#7] Bookmark/List doesn’t work — Issued by @SimSalabimse. Fixed an issue preventing bookmarks and lists from being created or displayed properly."
+        "[#11] Movie/show playtime line break issue — Issued by @SimSalabimse. Fixed layout inconsistencies affecting line breaks in movie/show playtime display.",
+        "[#10] Fix squarish purple block issue in intro scene — Issued by @afyef. Resolved visual glitch appearing as a purple fugly square during intro scenes."
       ]
     },
     {
       "title": "Enhancements",
       "items": [
-        "[#6] Set season as watched — Issued by @SimSalabimse. Added functionality to mark an entire season as watched.",
-        "AirPlay support. Added Apple AirPlay support for streaming content to compatible devices. (to be tested)"
+        "[#9] Add Logout feature by clicking the user icon in home — Issued by @afyef. Added an intuitive logout action accessible via the user icon on the home screen.",
+        "Save passphrase in iCloud Keychain — New feature enabling secure storage of user passphrases in iCloud Keychain for quick login."
       ]
     }
   ]
-},
+}
+
     "sources": [
       {
         "id": "xprime",
