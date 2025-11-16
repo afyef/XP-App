@@ -1,57 +1,52 @@
 {
-  "version": "1.0.6",
-  "minAppVersion": "1.0.0",
-  "forceUpdateBelow": "1.0.6",
-  "updateMessage": "Liquid Glass native tab view added and offline download functionality!",
-  
-  "fallbackMessage": "No streams available. Please try again later.",
-  
-  "downloadUrls": {
-    "pstream": "https://github.com/afyef/XP-App/releases/tag/v1.0.6",
-    "xprime": "https://github.com/afyef/XP-App/releases/tag/v1.0.6",
-    "default": "https://github.com/afyef/XP-App/releases/tag/v1.0.6"
-  },
-  
-  "changelog": {
     "version": "1.0.6",
-    "releaseDate": "2025-11-16",
-    "sections": [
-      {
-        "title": "Enhancements",
-        "items": [
-          "Added Liquid Glass native tab view for home.",
-          "Offline Download functionality implemented."
+    "minAppVersion": "1.0.0",
+    "forceUpdateBelow": "1.0.6",
+    "updateMessage": "Liquid Glass native tab view added and offline download functionality!",
+    "fallbackMessage": "No streams available. Please try again later.",
+    "downloadUrls": {
+        "pstream": "https://github.com/afyef/XP-App/releases/tag/v1.0.6",
+        "xprime": "https://github.com/afyef/XP-App/releases/tag/v1.0.6",
+        "default": "https://github.com/afyef/XP-App/releases/tag/v1.0.6"
+    },
+    "changelog": {
+        "version": "1.0.6",
+        "releaseDate": "2025-11-16",
+        "sections": [
+            {
+                "title": "Enhancements",
+                "items": [
+                    "Added Liquid Glass native tab view for home.",
+                    "Offline Download functionality implemented."
+                ]
+            }
         ]
-      }
-    ]
-  }
-},
-
+    },
     "sources": [
-      {
-        "id": "xprime",
-        "name": "XPrime",
-        "enabled": true,
-        "priority": 0,
-        "rootURL": "https://backend.xprime.tv",
-        "configURL": null,
-        "providers": [
-          {
-            "id": "orbit",
-            "name": "Orbit",
+        {
+            "id": "xprime",
+            "name": "XPrime",
             "enabled": true,
             "priority": 0,
-            "airplaySupported": false,
-            "endpoint": "/orbit",
-            "headers": {},
-            "timeout": 30,
-            "retries": 2,
-            "customParams": {
-              "header_Referer": "https://xprime.tv",
-              "header_Origin": "https://xprime.tv"
-            }
-          }
-        ]
-      }
+            "rootURL": "https://backend.xprime.tv",
+            "configURL": null,
+            "providers": [
+                {
+                    "id": "orbit",
+                    "name": "Orbit",
+                    "enabled": true,
+                    "priority": 0,
+                    "airplaySupported": false,
+                    "endpoint": "/orbit",
+                    "headers": {},
+                    "timeout": 30,
+                    "retries": 2,
+                    "customParams": {
+                        "header_Referer": "https://xprime.tv",
+                        "header_Origin": "https://xprime.tv"
+                    }
+                }
+            ]
+        }
     ]
-  }
+}
