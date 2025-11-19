@@ -1,24 +1,32 @@
 {
-    "version": "1.0.7",
+    "version": "1.0.8",
     "minAppVersion": "1.0.0",
     "forceUpdateBelow": "1.0.5",
-    "updateMessage": "Liquid Glass native tab view added and offline download functionality!",
+    "updateMessage": "Download progress tracking, offline sync, and WebView stability improvements!",
     "fallbackMessage": "No streams available. Please try again later.",
     "downloadUrls": {
-        "pstream": "https://github.com/afyef/XP-App/releases/tag/v1.0.7",
-        "xprime": "https://github.com/afyef/XP-App/releases/tag/v1.0.7",
-        "default": "https://github.com/afyef/XP-App/releases/tag/v1.0.7"
+        "pstream": "https://github.com/afyef/XP-App/releases/tag/v1.0.8",
+        "xprime": "https://github.com/afyef/XP-App/releases/tag/v1.0.8",
+        "default": "https://github.com/afyef/XP-App/releases/tag/v1.0.8"
     },
      "changelog": {
-        "version": "1.0.7",
-        "releaseDate": "2025-11-18",
+        "version": "1.0.8",
+        "releaseDate": "2025-11-20",
         "sections": [
+            {
+                "title": "Features",
+                "items": [
+                    "Download Progress Tracking - Downloaded episodes now resume from where you left off (#19 by @SimSalabimse)",
+                    "Offline Sync - Progress saves locally and automatically syncs when back online (#28 by @ibrahimarijuanaa)",
+                    "Auto-Scroll to Latest Episode - Media info automatically scrolls to most recently watched episode (#14 by @SimSalabimse)"
+                ]
+            },
             {
                 "title": "Fixes",
                 "items": [
-                    "Added a custom navigation bar with full search functionality.",
-                    "Improved compatibility for iOS versions below 26.",
-                    "Issue resolved by @ChocoMilkySideloading."
+                    "Episode Label UI - Fixed episode labels wrapping across two lines (#17 by @SimSalabimse)",
+                    "Player Buffering - Better VLC buffering handling for downloaded files",
+                    "WebView Stability - Fixed memory leaks and crashes in Turnstile verification"
                 ]
             }
         ]
