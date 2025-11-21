@@ -1,32 +1,33 @@
 {
-    "version": "1.0.8",
+    "version": "1.0.9",
     "minAppVersion": "1.0.0",
     "forceUpdateBelow": "1.0.5",
-    "updateMessage": "Download progress tracking, offline sync, and WebView stability improvements!",
+    "updateMessage": "Live Activity downloads, queue system, and download speed tracking!",
     "fallbackMessage": "No streams available. Please try again later.",
     "downloadUrls": {
-        "pstream": "https://github.com/afyef/XP-App/releases/tag/v1.0.8",
-        "xprime": "https://github.com/afyef/XP-App/releases/tag/v1.0.8",
-        "default": "https://github.com/afyef/XP-App/releases/tag/v1.0.8"
+        "pstream": "https://github.com/afyef/XP-App/releases/tag/v1.0.9",
+        "xprime": "https://github.com/afyef/XP-App/releases/tag/v1.0.9",
+        "default": "https://github.com/afyef/XP-App/releases/tag/v1.0.9"
     },
-     "changelog": {
-        "version": "1.0.8",
-        "releaseDate": "2025-11-20",
+    "changelog": {
+        "version": "1.0.9",
+        "releaseDate": "2025-11-21",
         "sections": [
             {
                 "title": "Features",
                 "items": [
-                    "Download Progress Tracking - Downloaded episodes now resume from where you left off (#19 by @SimSalabimse)",
-                    "Offline Sync - Progress saves locally and automatically syncs when back online (#28 by @ibrahimarijuanaa)",
-                    "Auto-Scroll to Latest Episode - Media info automatically scrolls to most recently watched episode (#14 by @SimSalabimse)"
+                    "Live Activity & Download Queue - Track downloads from Lock Screen and queue multiple episodes (#39 by @SimSalabimse)",
+                    "Download Speed & Time Estimates - Real-time speed, remaining size, and ETA (#38 by @SimSalabimse)",
+                    "Offline Playback Detection - Prompts to play downloaded version when available (#26 by @SimSalabimse)",
+                    "Storage Size Display - See total download storage usage (#18 by @SimSalabimse)",
+                    "Download Progress Display - Progress bars in Downloads tab (#16 by @SimSalabimse)"
                 ]
             },
             {
                 "title": "Fixes",
                 "items": [
-                    "Episode Label UI - Fixed episode labels wrapping across two lines (#17 by @SimSalabimse)",
-                    "Player Buffering - Better VLC buffering handling for downloaded files",
-                    "WebView Stability - Fixed memory leaks and crashes in Turnstile verification"
+                    "App Lag During Downloads - Fixed lag throughout the app when downloading (#15 by @SimSalabimse)",
+                    "Cancel Download Button - X button now works properly on downloading episodes"
                 ]
             }
         ]
