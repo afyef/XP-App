@@ -5,11 +5,11 @@ labels: []
 assignees: []
 
 body:
-  - type: dropdown
-    id: label
+  - type: checkboxes
+    id: labels
     attributes:
-      label: Label
-      description: Select the most appropriate label for this feature request.
+      label: Labels
+      description: Select all that apply
       options:
         - Android
         - enhancement
