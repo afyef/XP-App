@@ -1,0 +1,74 @@
+name: Bug Report
+description: Create a report to help us improve
+title: ""
+labels: []
+assignees: []
+
+body:
+  - type: dropdown
+    id: label
+    attributes:
+      label: Issue Type
+      description: Select the most appropriate label for this issue.
+      options:
+        - Android
+        - bug
+        - enhancement
+        - help wanted
+        - invalid
+        - iOS
+        - question
+        - UI Bug
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      placeholder: A clear and concise description of what the bug is.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: To Reproduce
+      placeholder: |
+        Steps to reproduce the behavior:
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: A clear and concise description of what you expected to happen.
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
+
+  - type: input
+    id: desktop
+    attributes:
+      label: Desktop Information
+      placeholder: "OS, browser, version..."
+
+  - type: input
+    id: smartphone
+    attributes:
+      label: Smartphone Information
+      placeholder: "Device, OS, browser, version..."
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      placeholder: Add any other context about the problem here.
