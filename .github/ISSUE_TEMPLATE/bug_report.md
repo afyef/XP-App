@@ -2,7 +2,7 @@
 name: Bug report
 about: Create a report to help us improve
 title: ''
-labels: ''
+labels: Android, bug, enhancement, help wanted, invalid, iOS, question, UI Bug
 assignees: ''
 
 ---

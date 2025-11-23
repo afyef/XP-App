@@ -2,7 +2,8 @@
 name: Feature request
 about: Suggest an idea for this project
 title: ''
-labels: ''
+labels: Android, bug, documentation, enhancement, good first issue, help wanted, invalid,
+  iOS, question, UI Bug
 assignees: ''
 
 ---
