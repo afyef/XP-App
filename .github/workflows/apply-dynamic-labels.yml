@@ -10,13 +10,16 @@ jobs:
   apply-form-labels:
     runs-on: ubuntu-latest
     steps:
-      - name: Apply labels based on form selection
+      - name: Apply dynamic labels based on checkboxes
         uses: actions-ecosystem/action-add-labels@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           labels: |
-            ${{ contains(github.event.issue.body, 'Android') && 'Android' || '' }}
-            ${{ contains(github.event.issue.body, 'iOS') && 'iOS' || '' }}
-            ${{ contains(github.event.issue.body, 'bug') && 'bug' || '' }}
-            ${{ contains(github.event.issue.body, 'UI Bug') && 'UI Bug' || '' }}
-            ${{ contains(github.event.issue.body, 'enhancement') && 'enhancement' || '' }}
+            ${{ contains(github.event.issue.body, '- [x] Android') && 'Android' || '' }}
+            ${{ contains(github.event.issue.body, '- [x] bug') && 'bug' || '' }}
+            ${{ contains(github.event.issue.body, '- [x] enhancement') && 'enhancement' || '' }}
+            ${{ contains(github.event.issue.body, '- [x] help wanted') && 'help wanted' || '' }}
+            ${{ contains(github.event.issue.body, '- [x] invalid') && 'invalid' || '' }}
+            ${{ contains(github.event.issue.body, '- [x] iOS') && 'iOS' || '' }}
+            ${{ contains(github.event.issue.body, '- [x] question') && 'question' || '' }}
+            ${{ contains(github.event.issue.body, '- [x] UI Bug') && 'UI Bug' || '' }}
