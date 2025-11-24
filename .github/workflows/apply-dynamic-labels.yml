@@ -3,6 +3,9 @@ on:
   issues:
     types: [opened]
 
+permissions:
+  issues: write
+
 jobs:
   apply-form-labels:
     runs-on: ubuntu-latest
@@ -10,12 +13,10 @@ jobs:
       - name: Apply labels based on form selection
         uses: actions-ecosystem/action-add-labels@v1
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           labels: |
             ${{ contains(github.event.issue.body, 'Android') && 'Android' || '' }}
             ${{ contains(github.event.issue.body, 'iOS') && 'iOS' || '' }}
             ${{ contains(github.event.issue.body, 'bug') && 'bug' || '' }}
-            ${{ contains(github.event.issue.body, 'enhancement') && 'enhancement' || '' }}
-            ${{ contains(github.event.issue.body, 'help wanted') && 'help wanted' || '' }}
-            ${{ contains(github.event.issue.body, 'invalid') && 'invalid' || '' }}
-            ${{ contains(github.event.issue.body, 'question') && 'question' || '' }}
             ${{ contains(github.event.issue.body, 'UI Bug') && 'UI Bug' || '' }}
+            ${{ contains(github.event.issue.body, 'enhancement') && 'enhancement' || '' }}
