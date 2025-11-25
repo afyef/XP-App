@@ -1,4 +1,4 @@
-# XP App - Providers for Enhanced Streaming
+# XP App - For Enhanced Streaming
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/afyef/XP-App?style=social)](https://github.com/afyef/XP-App)
 [![GitHub forks](https://img.shields.io/github/forks/afyef/XP-App?style=social)](https://github.com/afyef/XP-App)
