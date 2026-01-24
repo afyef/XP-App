@@ -1,0 +1,34 @@
+{
+    "version": "1.0.0",
+    "minAppVersion": "1.0.0",
+    "forceUpdateBelow": "1.0.0",
+   
+    "fallbackMessage": "No streams available. Please try again later.",
+    "sources": [
+        {
+            "id": "xprime",
+            "name": "XPrime",
+            "enabled": true,
+            "priority": 0,
+            "rootURL": "https://backend.xprime.tv",
+            "configURL": null,
+            "providers": [
+                {
+                    "id": "orbit",
+                    "name": "Orbit",
+                    "enabled": true,
+                    "priority": 0,
+                    "airplaySupported": false,
+                    "endpoint": "/orbit",
+                    "headers": {},
+                    "timeout": 30,
+                    "retries": 2,
+                    "customParams": {
+                        "header_Referer": "https://xprime.tv",
+                        "header_Origin": "https://xprime.tv"
+                    }
+                }
+            ]
+        }
+    ]
+}
