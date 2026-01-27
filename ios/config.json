@@ -52,8 +52,8 @@
                     "timeout": 30,
                     "retries": 2,
                     "customParams": {
-                        "header_Referer": "https://xprime.tv",
-                        "header_Origin": "https://xprime.tv"
+                        "header_Referer": "https://xprime.stream",
+                        "header_Origin": "https://xprime.stream"
                     }
                 }
             ]
