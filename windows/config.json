@@ -1,7 +1,7 @@
 {
-    "version": "1.0.0",
-    "minAppVersion": "1.0.0",
-    "forceUpdateBelow": "1.0.0",
+    "version": "0.1.0",
+    "minAppVersion": "0.1.0",
+    "forceUpdateBelow": "0.1.0",
    
     "fallbackMessage": "No streams available. Please try again later.",
     "sources": [
