@@ -50,6 +50,21 @@
                         "header_Referer": "https://xprime.tv",
                         "header_Origin": "https://xprime.tv"
                     }
+                },
+                 {
+                    "id": "fox",
+                    "name": "Fox",
+                    "enabled": true,
+                    "priority": 0,
+                    "airplaySupported": false,
+                    "endpoint": "/fox",
+                    "headers": {},
+                    "timeout": 30,
+                    "retries": 2,
+                    "customParams": {
+                        "header_Referer": "https://xprime.tv",
+                        "header_Origin": "https://xprime.tv"
+                    }
                 }
             ]
         }
