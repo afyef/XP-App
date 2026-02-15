@@ -35,7 +35,7 @@
             "name": "XPrime",
             "enabled": true,
             "priority": 0,
-            "rootURL": "https://mzt4pr8wlkxnv0qsha5g.website",
+            "rootURL": "https://backend.xprime.tv",
             "configURL": null,
             "providers": [
                 {
