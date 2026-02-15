@@ -1,28 +1,30 @@
 {
-    "version": "0.1.2",
+    "version": "1.0.0",
     "minAppVersion": "0.1.0",
-    "forceUpdateBelow": "0.1.1",
-    "updateMessage": "Installer false positives fixed, automatic player library installation on launch, and new features.",
+    "forceUpdateBelow": "1.0.0",
+    "updateMessage": "🎉 First official 1.0.0 release! Added Picture-in-Picture, External/Online Subtitles, Multi-server support, Fox server, and Orbit now supports Real Debrid stream lists. Fixed download update issue.",
     "fallbackMessage": "No streams available. Please try again later.",
     "downloadUrls": {
-        "default": "https://github.com/afyef/XP-App/releases/tag/v0.1.2"
+        "default": "https://github.com/afyef/XP-App/releases/tag/v1.0.0"
     },
     "changelog": {
-        "version": "0.1.2",
-        "releaseDate": "2026-02-01",
+        "version": "1.0.0",
+        "releaseDate": "2026-02-16",
         "sections": [
             {
-                "title": "Improvements",
+                "title": "Features",
                 "items": [
-                    "Removed false positive detections on the installer file",
-                    "Player libraries are now installed automatically on application launch",
-                    "Improved handling of missing media libraries"
+                    "Added Picture-in-Picture support",
+                    "Added support for External/Online Subtitles",
+                    "Added Multi-server support",
+                    "Orbit now supports a list of stream files provided by Real Debrid",
+                    "Added Fox server"
                 ]
             },
             {
-                "title": "Changes",
+                "title": "Bug Fixes",
                 "items": [
-                    "Added new features and general improvements"
+                    "Fixed download update issue"
                 ]
             }
         ]
