@@ -1,34 +1,27 @@
 {
-    "version": "1.0.0",
+    "version": "1.1.1",
     "minAppVersion": "0.1.0",
     "forceUpdateBelow": "1.0.0",
-    "updateMessage": "🎉 First official 1.0.0 release! Added Picture-in-Picture, External/Online Subtitles, Multi-server support, Fox server, and Orbit now supports Real Debrid stream lists. Fixed download update issue.",
+    "updateMessage": "Fixed Downloads, Improved Source Selection UI, and added \"Since you watched X, you may like\" feature.",
     "fallbackMessage": "No streams available. Please try again later.",
     "downloadUrls": {
-        "default": "https://github.com/afyef/XP-App/releases/tag/v1.0.0"
+        "default": "https://github.com/afyef/XP-App/releases/download/v1.1.0/XP_1.1.0_x64-setup.exe"
     },
     "changelog": {
-        "version": "1.0.0",
-        "releaseDate": "2026-02-16",
+        "version": "1.1.1",
+        "releaseDate": "2026-02-24",
         "sections": [
             {
-                "title": "Features",
+                "title": "What's New",
                 "items": [
-                    "Added Picture-in-Picture support",
-                    "Added support for External/Online Subtitles",
-                    "Added Multi-server support",
-                    "Orbit now supports a list of stream files provided by Real Debrid",
-                    "Added Fox server"
-                ]
-            },
-            {
-                "title": "Bug Fixes",
-                "items": [
-                    "Fixed download update issue"
+                    "Fixed Downloads",
+                    "Improved Source Selection UI",
+                    "Added \"Since you watched X, you may like\""
                 ]
             }
         ]
     },
+
     "sources": [
         {
             "id": "xprime",
