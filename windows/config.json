@@ -1,7 +1,7 @@
 {
     "version": "1.1.0",
     "minAppVersion": "0.1.0",
-    "forceUpdateBelow": "1.0.0",
+    "forceUpdateBelow": "1.1.0",
     "updateMessage": "Fixed Downloads, Improved Source Selection UI, and added \"Since you watched X, you may like\" feature.",
     "fallbackMessage": "No streams available. Please try again later.",
     "downloadUrls": {
