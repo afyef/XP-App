@@ -13,18 +13,21 @@ XP App has a vast library of movies and shows. Discorver new releases and your f
 
 - **iOS:** Built natively with **Swift**
 - **Android:** Built natively with **Kotlin**
+ - **Desktop (Tauri)**
 
 ## 🚧 Current Development
 
 **Platforms:**  
 - **iOS 16-26**  
-- **Android**  
+- **Android**
+- **Desktop (Tauri)**
+- **Android TV**
 
 ## 🧭 Future Plans
 
-- **Desktop (Tauri)**
+
 - **Apple TV**
-- **Android TV**
+
 
 ---
 
