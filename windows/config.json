@@ -1,22 +1,33 @@
 {
-    "version": "1.1.0",
+    "version": "1.1.1",
     "minAppVersion": "0.1.0",
     "forceUpdateBelow": "1.1.0",
-    "updateMessage": "Fixed Downloads, Improved Source Selection UI, and added \"Since you watched X, you may like\" feature.",
+    "updateMessage": "Switched to native CAPTCHA, added MPV renderer logs to player, fixed ad modal close button, and improved player UI.",
     "fallbackMessage": "No streams available. Please try again later.",
     "downloadUrls": {
-        "default": "https://github.com/afyef/XP-App/releases/download/v1.1.0/XP_1.1.0_x64-setup.exe"
+        "default": "https://github.com/afyef/XP-App/releases/download/v1.1.1/XP_1.1.1_x64-setup.exe"
     },
     "changelog": {
         "version": "1.1.1",
-        "releaseDate": "2026-02-24",
+        "releaseDate": "2026-03-01",
         "sections": [
             {
                 "title": "What's New",
                 "items": [
-                    "Fixed Downloads",
-                    "Improved Source Selection UI",
-                    "Added \"Since you watched X, you may like\""
+                    "Replaced Turnstile with native captcha to hopefully resolve failed to fetch stream issues",
+                    "MPV renderer logs now visible in the player Logs tab",
+                    "Player logs tab: Copy All button and selectable text",
+                    "Screen sleep prevention during playback (wake lock)",
+                    "Fixed ad modal close button not stopping the poll interval"
+                ]
+            },  
+            {
+                "title": "Bug Fixes",
+                "items": [
+                    "Fixed crash on loading screen",
+                    "Fixed PoW loop blocking the UI thread",
+                    "Fixed missing error when stream hash is provided without IMDB ID",
+                    "Fixed wake lock  not being removed on destroy"
                 ]
             }
         ]
