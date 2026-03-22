@@ -66,18 +66,18 @@
                     }
                 },
                  {
-                    "id": "fox",
-                    "name": "Fox",
+                    "id": "vidlink",
+                    "name": "Vidlink",
                     "enabled": true,
                     "priority": 0,
                     "airplaySupported": false,
-                    "endpoint": "/fox",
+                    "endpoint": "/vidlink",
                     "headers": {},
                     "timeout": 30,
                     "retries": 2,
                     "customParams": {
-                        "header_Referer": "https://videostr.net",
-                        "header_Origin": "https://videostr.net"
+                        "header_Referer": "https://vidlink.pro/",
+                        "header_Origin": "https://vidlink.pro"
                     }
                 }
             ]
