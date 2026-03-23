@@ -1,41 +1,37 @@
 {
-    "version": "1.1.1",
+    "version": "1.1.3",
     "minAppVersion": "0.1.0",
     "forceUpdateBelow": "1.1.1",
-    "updateMessage": "New Subtitle Style panel in the player, download history, redesigned settings menu, and several bug fixes.",
+    "updateMessage": "New streaming sources, faster playback, and smoother updates.",
     "fallbackMessage": "No streams available. Please try again later.",
     "downloadUrls": {
-        "default": "https://github.com/afyef/XP-App/releases/download/v1.1.2/XP_1.1.2_x64-setup.exe"
+        "default": "https://github.com/afyef/XP-App/releases/download/v1.1.3/XP_1.1.3_x64_en-US.msi"
     },
     "changelog": {
-        "version": "1.1.2",
-        "releaseDate": "2026-03-05",
+        "version": "1.1.3",
+        "releaseDate": "2026-03-24",
         "sections": [
             {
                 "title": "What's New",
                 "items": [
-                    "Subtitle Style panel in the player — adjust position, size, delay, text color, border, and font",
-                    "Subtitle style settings are now saved across sessions",
-                    "Downloaded videos history — downloaded videos watch history  are remembered after closing",
-                    "New app-wide Settings page"
+                    "Added a new streaming source for more content availability",
+                    "App now updates automatically in the background",
+                    "Auto open support box and close"
                 ]
             },
             {
                 "title": "Improvements",
                 "items": [
-                    "Completely redesigned player settings menu with drill-down panels",
-                    "Settings menu now shrinks to fit content instead of showing a blank gap",
-                    "Source preference is now correctly saved when using Remember my choice"
+                    "Faster video startup and smoother playback",
+                    "Server switcher now reflects all available sources"
                 ]
             },
             {
                 "title": "Bug Fixes",
                 "items": [
-                    "Fixed subtitle style settings showing wrong defaults for existing users",
-                    "Fixed subtitle delay not being applied when opening the player",
-                    "Fixed some issues with stream URL for Orbit and Fox providers",
-                    "Fixed Remember my choice not working on stream selection",
-                    "Fixed inability to scroll the Because You Watched row"
+                    "Fixed stream loading failures on certain titles",
+                    "Fixed an issue where ads would close too quickly",
+                    "Various stability improvements"
                 ]
             }
         ]
