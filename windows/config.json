@@ -1,37 +1,34 @@
 {
-    "version": "1.1.3",
+    "version": "1.1.4",
     "minAppVersion": "0.1.0",
     "forceUpdateBelow": "1.1.1",
-    "updateMessage": "New streaming sources, faster playback, and smoother updates.",
+    "updateMessage": "App temporarily on hold until fixes happen.",
     "fallbackMessage": "No streams available. Please try again later.",
     "downloadUrls": {
-        "default": "https://github.com/afyef/XP-App/releases/download/v1.1.3/XP_1.1.3_x64_en-US.msi"
+        "default": ""
     },
     "changelog": {
-        "version": "1.1.3",
-        "releaseDate": "2026-03-24",
+        "version": "1.1.4",
+        "releaseDate": "2026-04-12",
         "sections": [
             {
-                "title": "What's New",
+                "title": "depressing",
                 "items": [
-                    "Added a new streaming source for more content availability",
-                    "App now updates automatically in the background",
-                    "Auto open support box and close"
+                    "app is unusable due to stream issues etc.",
+                  
                 ]
             },
             {
                 "title": "Improvements",
                 "items": [
-                    "Faster video startup and smoother playback",
-                    "Server switcher now reflects all available sources"
+                    "fixing the horrible app",
                 ]
             },
             {
                 "title": "Bug Fixes",
                 "items": [
-                    "Fixed stream loading failures on certain titles",
-                    "Fixed an issue where ads would close too quickly",
-                    "Various stability improvements"
+                    "a wish to fullfill",
+
                 ]
             }
         ]
