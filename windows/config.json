@@ -2,33 +2,36 @@
     "version": "1.1.4",
     "minAppVersion": "0.1.0",
     "forceUpdateBelow": "1.1.1",
-    "updateMessage": "App temporarily on hold until fixes happen.",
+    "updateMessage": "Better server switching, quality selection, and stability fixes.",
     "fallbackMessage": "No streams available. Please try again later.",
     "downloadUrls": {
-        "default": ""
+        "default": "https://github.com/afyef/XP-App/releases/download/v1.1.4/XP_1.1.4_x64_en-US.msi"
     },
     "changelog": {
         "version": "1.1.4",
-        "releaseDate": "2026-04-12",
+        "releaseDate": "2026-04-20",
         "sections": [
             {
-                "title": "depressing",
+                "title": "What's New",
                 "items": [
-                    "app is unusable due to stream issues etc.",
-                  
+                    "You can now choose your video quality directly in the player",
+                    "More streaming options available when switching sources"
                 ]
             },
             {
                 "title": "Improvements",
                 "items": [
-                    "fixing the horrible app",
+                    "Smoother and more reliable source switching",
+                    "First-time setup is now fully automatic",
+                    "Cleaner exit when closing or reloading the player"
                 ]
             },
             {
                 "title": "Bug Fixes",
                 "items": [
-                    "a wish to fullfill",
-
+                    "Fixed certain sources not loading when switching in the player",
+                    "Fixed incorrect quality label being shown during playback",
+                    "Various streaming reliability improvements"
                 ]
             }
         ]
